@@ -69,7 +69,7 @@ export type Equipment =
   | 'shoulder_press'
   | 'dip_station'
   | 'pullup_bar'
-  | ' EZ_curl_bar'
+  | 'ez_curl_bar'
   | 'calf_raise_machine'
   | 'hack_squat'
   | 'hack_squat_machine'

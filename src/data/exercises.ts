@@ -129,7 +129,7 @@ export const exercises: Exercise[] = [
     id: 'skull_crusher',
     name: 'Skull Crushers',
     targetMuscles: ['triceps'],
-    equipment: ['EZ_curl_bar', 'dumbbell'],
+    equipment: ['ez_curl_bar', 'dumbbell'],
     difficulty: 'intermediate',
   },
   {
@@ -224,7 +224,7 @@ export const exercises: Exercise[] = [
     id: 'barbell_curl',
     name: 'Barbell Curl',
     targetMuscles: ['biceps'],
-    equipment: ['barbell', 'EZ_curl_bar'],
+    equipment: ['barbell', 'ez_curl_bar'],
     difficulty: 'beginner',
   },
   {
@@ -245,7 +245,7 @@ export const exercises: Exercise[] = [
     id: 'preacher_curl',
     name: 'Preacher Curls',
     targetMuscles: ['biceps'],
-    equipment: ['EZ_curl_bar', 'dumbbell'],
+    equipment: ['ez_curl_bar', 'dumbbell'],
     difficulty: 'intermediate',
   },
   {

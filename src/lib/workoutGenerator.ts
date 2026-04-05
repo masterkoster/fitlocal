@@ -47,9 +47,10 @@ export const getExercisesForMuscle = (
     const hasEquipment = ex.equipment.length === 0 || 
       ex.equipment.some(eq => equipment.includes(eq));
     
-    // Consider difficulty
-    const difficultyMatch = ex.difficulty === 'beginner' || 
-      (difficulty !== 'beginner' && ex.difficulty !== 'beginner');
+    // Consider difficulty - beginners get beginner exercises, everyone gets all
+    const difficultyMatch = difficulty === 'beginner' 
+      ? ex.difficulty === 'beginner' 
+      : true;
     
     return targetsMuscle && hasEquipment && difficultyMatch;
   }).slice(0, 3); // Max 3 exercises per muscle
